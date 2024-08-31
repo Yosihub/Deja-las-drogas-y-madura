@@ -1,52 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
 body {
-    font-family: 'Lora', serif;
-    background-image: url(engin-akyurt-RVrVOvUkVwk-unsplash.jpg); 
+    background-image: url(engin-akyurt-RVrVOvUkVwk-unsplash.jpg); /* Reemplaza con una imagen real */
     background-size: cover;
     background-position: center;
-    color: #fff;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
-.content {
-    background-color: rgba(0, 0, 0, 0.6);
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
     margin: 50px auto;
-    max-width: 600px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2C3E50;
 }
 
 h1 {
-    font-size: 32px;
+    text-align: center;
+    font-size: 2.5em;
     margin-bottom: 20px;
-    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.1em;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 
-.options button {
-    margin: 10px;
-    padding: 12px 24px;
-    font-size: 18px;
-    cursor: pointer;
-    border: none;
-    background-color: #007BFF;
-    color: #fff;
-    border-radius: 4px;
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.options a {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2980B9;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
-    font-family: 'Lora', serif;
 }
 
-.options button:hover {
-    background-color: #0056b3;
+.options a:hover {
+    background-color: #1ABC9C;
 }
 
-#extra-options {
-    margin-top: 30px;
-    font-size: 18px;
-    text-align: left;
+section {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #2980B9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #1ABC9C;
 }
