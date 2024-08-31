@@ -3,23 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dejar las Drogas y Madurar</title>
+    <title>Madurar y Dejar las Drogas</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="content">
-        <h1>¿Estás pensando en dejar las drogas y madurar?</h1>
-        <p>Este sitio está diseñado para ayudarte a reflexionar sobre tu decisión de dejar las drogas y cómo puedes madurar en el proceso.</p>
+    <div class="container">
+        <h1>Madurar y Dejar las Drogas</h1>
+        <p>¿Te has preguntado si estás listo para dejar las drogas y empezar un nuevo camino hacia la madurez?</p>
+        
         <div class="options">
-            <button onclick="showOptions('yes')">Sí</button>
-            <button onclick="showOptions('no')">No</button>
-            <button onclick="showOptions('why')">¿Por qué?</button>
-            <button onclick="showOptions('how')">¿Cómo lo hago?</button>
-            <button onclick="showOptions('resources')">Recursos y Apoyo</button>
+            <a href="#madurez">Sí, estoy listo</a>
+            <a href="#dudas">No, tengo dudas</a>
+            <a href="#porque">¿Por qué debería hacerlo?</a>
         </div>
-        <div id="extra-options"></div>
+        
+        <section id="madurez">
+            <h2>¡Es un gran paso!</h2>
+            <p>Reconocer que estás listo para madurar es el primer paso. Aquí hay algunas opciones para ayudarte:</p>
+            <ul>
+                <li><a href="https://www.minsal.cl" target="_blank">Busca ayuda profesional en Chile</a></li>
+                <li><a href="https://www.senda.gob.cl" target="_blank">Programas de rehabilitación en Chile</a></li>
+                <li><a href="#final">Explora más opciones</a></li>
+            </ul>
+        </section>
+        
+        <section id="dudas">
+            <h2>Es normal tener dudas</h2>
+            <p>Es natural que tengas dudas. Considera hablar con un profesional o con alguien de confianza:</p>
+            <ul>
+                <li><a href="https://www.hablemosdetodo.cl" target="_blank">Hablemos de Todo - Chile</a></li>
+                <li><a href="https://www.saludresponde.gob.cl" target="_blank">Salud Responde</a></li>
+                <li><a href="#final">Más recursos para ti</a></li>
+            </ul>
+        </section>
+        
+        <section id="porque">
+            <h2>¿Por qué dejar las drogas?</h2>
+            <p>Dejar las drogas te permitirá vivir una vida más plena y saludable. Explora más razones:</p>
+            <ul>
+                <li><a href="https://www.conased.org" target="_blank">Consecuencias del consumo de drogas</a></li>
+                <li><a href="https://www.sernatur.cl" target="_blank">Actividades saludables en Chile</a></li>
+                <li><a href="#final">Conoce más historias</a></li>
+            </ul>
+        </section>
+        
+        <section id="final">
+            <h2>¡Toma el control de tu vida!</h2>
+            <p>Recuerda que siempre hay recursos y personas dispuestas a ayudarte.</p>
+            <p><a href="https://www.gob.cl/salud/">Explora más opciones de salud en Chile</a></p>
+        </section>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
