@@ -1,15 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Lora', serif;
+    background-image: url('https://your-image-url.com/psychology-background.jpg'); /* Reemplaza con la URL de la imagen */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
     text-align: center;
     margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 32px;
     margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
 }
 
 p {
@@ -20,13 +31,14 @@ p {
 .options button {
     margin: 10px;
     padding: 12px 24px;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
     border: none;
     background-color: #007BFF;
     color: #fff;
     border-radius: 4px;
     transition: background-color 0.3s ease;
+    font-family: 'Lora', serif;
 }
 
 .options button:hover {
